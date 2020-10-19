@@ -57,17 +57,20 @@ transform: translate(-50%, -50%);
     font-family: 'Segoe UI', sans-serif;
     font-size: 55px;
     position: absolute;
-    top: 125%;
+    top: 175%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 #test{
     position: absolute;
-    top: 150%;
+    top: 185%;
     
 }
 /* Products section */
+#products{
+    padding: 50px;
+}
 h1{
     position: absolute;
     top: 100%;
@@ -77,12 +80,12 @@ h1{
     font-family: Microsoft Yahei, sans-serif;
 }
 
-#box1{
-    width:373px;
-    height: 539px;
-    border:3px, black;
-}
-
+table, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 30px;
+    margin: auto;
+    }
 
 
 /* about us section */
@@ -100,6 +103,6 @@ justify-content: center;
 color: black;
 font-size: 35px;
 position: absolute;
-top: 3200px;
+top: 3650px;
 
 }
