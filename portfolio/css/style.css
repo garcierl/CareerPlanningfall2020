@@ -1,12 +1,44 @@
+/*creating navigation bar */
 .navbar{
 background-color: #5FB3E4;
 overflow: hidden;
+height: 94px;
+width: auto;
 }
-
+/* navigation bar text styling */
 .navbar a {
+    top: 50%;
+    float: right;
     text-align: center;
     font-size: 50px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration-color: black;
+    font-family: Rockwell, sans-serif;
+    color: black;
+    padding-right: 100px;
+}
+
+/*home section */
+.home{
+text-align: center;
+position: relative;
+color: black;
+}
+
+.header{
+font-size: 111px;
+font-family: Javanese, sans-serif;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.intro{
+    
+    font-family: Javanese, sans-serif;
+    font-size: 66px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
