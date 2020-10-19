@@ -3,8 +3,12 @@
 background-color: #5FB3E4;
 overflow: hidden;
 height: 94px;
-width: auto;
+position: fixed; /* Set the navbar to fixed position */
+top: 0; /* Position the navbar at the top of the page */
+width: 100%; /* Full width */
+z-index: 1;
 }
+
 /* navigation bar text styling */
 .navbar a {
     top: 50%;
@@ -18,27 +22,84 @@ width: auto;
 }
 
 /*home section */
-.home{
+#home{
+margin-top: auto;
 text-align: center;
 position: relative;
 color: black;
+}
+#homeid{
+    opacity: 65%;
 }
 
 .header{
 font-size: 111px;
 font-family: Javanese, sans-serif;
 position: absolute;
-top: 50%;
+top: 25%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
 
 .intro{
-    
     font-family: Javanese, sans-serif;
     font-size: 66px;
     position: absolute;
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+
+/* brand section */
+.brandheader{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 55px;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#test{
+    position: absolute;
+    top: 150%;
+    
+}
+/* Products section */
+h1{
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    color:black;
+    font-size: 70px;
+    font-family: Microsoft Yahei, sans-serif;
+}
+
+#box1{
+    width:373px;
+    height: 539px;
+    border:3px, black;
+}
+
+
+
+/* about us section */
+#info{
+   color: black;
+   font-size: 40px;
+   font-family: Javanese, sans-serif;
+   padding-top: 100px;
+}
+
+/* locations section */
+#details{
+padding-left: 1000px;
+justify-content: center;
+color: black;
+font-size: 35px;
+position: absolute;
+top: 3200px;
+
 }
