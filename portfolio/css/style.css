@@ -22,7 +22,7 @@ z-index: 1;
 }
 
 /*home section */
-#home{
+.home{
 margin-top: auto;
 text-align: center;
 position: relative;
@@ -68,7 +68,7 @@ transform: translate(-50%, -50%);
     
 }
 /* Products section */
-#products{
+.products{
     padding: 50px;
 }
 h1{
