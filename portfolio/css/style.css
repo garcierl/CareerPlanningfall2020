@@ -2,7 +2,7 @@
 .navbar{
 background-color: #5FB3E4;
 overflow: hidden;
-height: 94px;
+height: 75px;
 position: fixed; /* Set the navbar to fixed position */
 top: 0; /* Position the navbar at the top of the page */
 width: 100%; /* Full width */
@@ -14,11 +14,11 @@ z-index: 1;
     top: 50%;
     float: right;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: none;
     font-family: Rockwell, sans-serif;
     color: black;
-    padding-right: 100px;
+    padding-right: 125px;
 }
 
 /*home section */
@@ -36,7 +36,7 @@ color: black;
 font-size: 111px;
 font-family: Javanese, sans-serif;
 position: absolute;
-top: 25%;
+top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
@@ -56,34 +56,34 @@ transform: translate(-50%, -50%);
 .brandheader{
     font-family: 'Segoe UI', sans-serif;
     font-size: 55px;
-    position: absolute;
     top: 175%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 #test{
+
     position: absolute;
-    top: 185%;
+    top: 190%;
     
 }
 /* Products section */
 .products{
-    padding: 50px;
+    padding: 100px;
 }
 h1{
-    position: absolute;
+    text-align: center;
     top: 100%;
-    left: 35%;
+    left: 50%;
     color:black;
-    font-size: 70px;
+    font-size: 65px;
     font-family: Microsoft Yahei, sans-serif;
 }
 
 table, tr{
     border: 1px solid black;
     border-collapse: collapse;
-    padding: 30px;
+    padding: 100px;
     margin: auto;
     }
 
@@ -98,7 +98,7 @@ table, tr{
 
 /* locations section */
 #details{
-padding-left: 1000px;
+padding-left: 1250px;
 justify-content: center;
 color: black;
 font-size: 35px;
